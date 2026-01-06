@@ -1,0 +1,37 @@
+site_name: Erik Sangeorzan – Engineering Portfolio
+site_description: Selected projects and case studies
+site_url: https://<your-pages-subdomain>.pages.dev
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+  - include-markdown  # to pull READMEs and snippets from your repos
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - footnotes
+  - codehilite
+  - tables
+  - attr_list
+
+nav:
+  - Home: index.md
+  - Role Fit: role-fit.md
+  - Projects:
+      - _index: projects/index.md
+      - Real-Time Audio Separation: projects/real-time-audio-separation.md
+      - Stratum Synthesizer: projects/stratum-synthesizer.md
+      - Zumo Shield Robot: projects/zumo-shield-robot.md
+      - Toyota Auto-Validation (Harman): projects/toyota-auto-validation.md
+      - Resume & Cover Letter: projects/resume-cover.md
