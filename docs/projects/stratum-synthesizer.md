@@ -27,3 +27,12 @@ Why this is relevant to Shure
   - Copy `combined.raw` to the root of an SD card used by the target board.
   - Load `test_top.e` (or `test_GUI.e` for interactive tests) as the main program using the course toolchain/toolchain loader.
 - Notes: The project is assembly-heavy and expects the original platform; if you want to reproduce the environment I can supply a short checklist and the recommended toolchain setup.
+
+## Downloads
+- [Stratum Written Report (PDF)](/docs/assets/stratum-synthesizer/Stratum Written Report.pdf)
+- [Presentation (PPTX)](/docs/assets/stratum-synthesizer/Stratum Presentation (download to avoid format issues).pptx)
+- [Code (zip)](/docs/assets/stratum-synthesizer/stratum-code.zip)
+
+### What to inspect
+- Read the **Stratum Written Report** for architecture and driver design notes.
+- Inspect `speaker_driver.e` and the `synth` modules inside the code zip to see low-level driver logic and instrument synthesis routines.

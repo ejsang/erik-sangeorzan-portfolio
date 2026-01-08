@@ -41,3 +41,15 @@ python3 src/ui3_1_maxplayback.py
 
 Notes
 - Real-time performance depends on available CPU cores and tuning parameters — see `OVERVIEW.txt` and `USAGE.txt` for recommended settings and bottlenecks.
+
+## Downloads
+- [Final report (PDF)](/docs/assets/real-time-audio-separation/2021-Team-2-final.pdf)
+- [Slide deck (PDF)](/docs/assets/real-time-audio-separation/2021-Team-2-slides.pdf)
+- [Poster (PDF)](/docs/assets/real-time-audio-separation/2021-Team-2-poster.pdf)
+- [Demo video (MP4)](/docs/assets/real-time-audio-separation/slide10_video1_final_demo.mp4)
+- [Runnable demo (zip)](/docs/assets/real-time-audio-separation/real-time-demo.zip)
+
+### What to inspect
+- See the **Final report** for design decisions, synchronization approach, and performance analysis.
+- Play the **Demo video** for the live system behavior and slide commentary.
+- Download the **Runnable demo** to run the self-contained demo locally (instructions in `USAGE.txt`).
