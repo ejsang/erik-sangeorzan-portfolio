@@ -34,7 +34,8 @@ jobs:
       - name: Generate role-fit PDF
         run: |
           mkdir -p artifacts
-          wkhtmltopdf ./site/role-fit/index.html ./artifacts/role-fit.pdf
+          # Allow wkhtmltopdf to load local CSS/JS assets and give JS a short time to run
+          wkhtmltopdf --enable-local-file-access --javascript-delay 2000 --no-stop-slow-scripts ./site/role-fit/index.html ./artifacts/role-fit.pdf
 
       - name: Upload role-fit PDF artifact
         uses: actions/upload-artifact@v4
