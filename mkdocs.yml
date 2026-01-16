@@ -1,6 +1,6 @@
 site_name: Erik Sangeorzan – Engineering Portfolio
 site_description: Selected projects and case studies
-site_url: https://<your-pages-subdomain>.pages.dev
+site_url: https://ejsang.github.io/erik-sangeorzan-portfolio/
 
 theme:
   name: material
