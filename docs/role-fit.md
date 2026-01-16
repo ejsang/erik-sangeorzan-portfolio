@@ -28,4 +28,3 @@
 
 ---
 
-If you'd like, I can tighten each mapping into 1–2 concise sentences suitable for a one-page "Role-Fit" export (.pdf) you can include with applications.

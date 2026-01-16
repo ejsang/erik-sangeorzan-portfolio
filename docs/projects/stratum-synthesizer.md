@@ -26,7 +26,6 @@ Why this is relevant to Shure
 - To run on target hardware:
   - Copy `combined.raw` to the root of an SD card used by the target board.
   - Load `test_top.e` (or `test_GUI.e` for interactive tests) as the main program using the course toolchain/toolchain loader.
-- Notes: The project is assembly-heavy and expects the original platform; if you want to reproduce the environment I can supply a short checklist and the recommended toolchain setup.
 
 ## Downloads
 - [Stratum Written Report (PDF)](/docs/assets/stratum-synthesizer/Stratum Written Report.pdf)

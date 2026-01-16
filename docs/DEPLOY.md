@@ -11,5 +11,3 @@ Quick checklist
 Notes
 - The workflow uses `GITHUB_TOKEN` automatically (no extra secret needed).
 - If you prefer Netlify or Vercel, you can connect the repository there and set the build command to `mkdocs build` and publish the contents of the `site/` directory.
-
-If you'd like, I can add the Actions status badge to `docs/index.md` or the README and create a short PR with the repo-level settings to make the first deployment smoother.
