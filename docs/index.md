@@ -1,9 +1,13 @@
-# Engineering Portfolio
+# Erik Sangeorzan — Engineering Portfolio
 
 [![Build & Deploy](https://github.com/ejsang/erik-sangeorzan-portfolio/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/ejsang/erik-sangeorzan-portfolio/actions){:target="_blank"}
 
-Welcome! This site highlights selected projects. Each page includes a **problem → approach → results** summary, architecture diagram, and links to code snippets.
+Welcome to my engineering portfolio showcasing selected projects in embedded software, audio processing, and robotics. Each project page includes a structured **Problem → Approach → Results** summary, technical details, and downloadable artifacts.
 
-**For Shure (Senior Embedded Software Engineer role)**: see the [Role Fit](../role-fit.md){:target="_blank"} page to view a concise mapping between the job requirements and project evidence in this portfolio.
+## Quick Navigation
+
+- **[Projects](projects/index.md){:target="_blank"}** — Browse all featured projects
+- **[Role Fit](role-fit.md){:target="_blank"}** — Mapping to Shure Senior Embedded Software Engineer requirements
+- **[Resume & Cover Letter](projects/resume-cover.md){:target="_blank"}** — Tailored application materials
 
 ---
