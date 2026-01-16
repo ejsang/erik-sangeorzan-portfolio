@@ -44,11 +44,11 @@ Notes
 - Real-time performance depends on available CPU cores and tuning parameters — see `OVERVIEW.txt` and `USAGE.txt` for recommended settings and bottlenecks.
 
 ## Downloads
-- [Final report (PDF)](../assets/real-time-audio-separation/2021-Team-2-final.pdf)
-- [Slide deck (PDF)](../assets/real-time-audio-separation/2021-Team-2-slides.pdf)
-- [Poster (PDF)](../assets/real-time-audio-separation/2021-Team-2-poster.pdf)
-- [Demo video (MP4)](../assets/real-time-audio-separation/slide10_video1_final_demo.mp4)
-- [Runnable demo (zip)](../assets/real-time-audio-separation/real-time-demo.zip)
+- [Final report (PDF)](../assets/real-time-audio-separation/2021-Team-2-final.pdf){:target="_blank"}
+- [Slide deck (PDF)](../assets/real-time-audio-separation/2021-Team-2-slides.pdf){:target="_blank"}
+- [Poster (PDF)](../assets/real-time-audio-separation/2021-Team-2-poster.pdf){:target="_blank"}
+- [Demo video (MP4)](../assets/real-time-audio-separation/slide10_video1_final_demo.mp4){:target="_blank"}
+- [Runnable demo (zip)](../assets/real-time-audio-separation/real-time-demo.zip){:target="_blank"}
 
 ### What to inspect
 - See the **Final report** for design decisions, synchronization approach, and performance analysis.

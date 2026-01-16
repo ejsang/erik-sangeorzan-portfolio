@@ -27,7 +27,7 @@ Why this is relevant to Shure
 - Verify motor and sensor wiring matches pins in `main.c`; adjust PWM/drive parameters as needed and test in a controlled environment.
 
 ## Downloads
-- [Line follower code (zip)](../assets/zumo-shield-robot/zumo-line-follower.zip)
+- [Line follower code (zip)](../assets/zumo-shield-robot/zumo-line-follower.zip){:target="_blank"}
 
 ### What to inspect
 - Open `main.c` in the zip and inspect the sensor scan and correction logic — this is where hardware timing and PWM control are implemented.
