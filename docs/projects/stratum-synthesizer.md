@@ -2,10 +2,11 @@
 
 **Summary:** A hand-crafted audio synthesizer implemented largely in assembly with low-level drivers for speaker output, SD card access, SDRAM, and touchscreen I/O—focused on efficiency and driver-level control.
 
-Problem → Approach → Results
-- Problem: Produce a functional synthesizer on constrained embedded hardware with multiple instrument voices and low-latency control.
-- Approach: Implement synthesis routines and driver code in assembly for tight control over timing and memory; build drivers for SD I/O and speaker output.
-- Results: Full synthesizer with multiple instruments and a touchscreen interface; source demonstrates low-level driver work and audio path implementation.
+**Problem:** Produce a functional synthesizer on constrained embedded hardware with multiple instrument voices and low-latency control.
+
+**Approach:** Implement synthesis routines and driver code in assembly for tight control over timing and memory; build drivers for SD I/O and speaker output.
+
+**Results:** Full synthesizer with multiple instruments and a touchscreen interface; source demonstrates low-level driver work and audio path implementation.
 
 Relevant files
 - `Project Samples/Stratum Synthesizer (Assembly)/Code/speaker_driver.e`

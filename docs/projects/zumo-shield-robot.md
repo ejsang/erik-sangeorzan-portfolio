@@ -2,10 +2,11 @@
 
 **Summary:** STM32-based robot navigation project showing motor control, sensor IO, PWM, timers, and UART telemetry using the STM32 HAL and C.
 
-Problem → Approach → Results
-- Problem: Implement reliable line-following and navigation on a Zumo robot using the STM32 microcontroller.
-- Approach: Use STM32 HAL to manage PWM motor control, GPIO sensors, timers and UART for debug telemetry; implement sensor scanning and corrective control logic in C.
-- Results: Working line-following implementation with telemetry and documented firmware (`main.c`).
+**Problem:** Implement reliable line-following and navigation on a Zumo robot using the STM32 microcontroller.
+
+**Approach:** Use STM32 HAL to manage PWM motor control, GPIO sensors, timers and UART for debug telemetry; implement sensor scanning and corrective control logic in C.
+
+**Results:** Working line-following implementation with telemetry and documented firmware (`main.c`).
 
 Relevant files
 - `Project Samples/Zumo Shield Robot Navigation (C)/Line follower/main.c`

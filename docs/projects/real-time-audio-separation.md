@@ -2,10 +2,11 @@
 
 **Summary:** Real-time source separation project combining embedded Teensy audio acquisition (I2S), UART streaming, Raspberry Pi multicore processing, and a Python GUI for real-time playback and visualization. Demonstrates embedded audio capture, DSP algorithms, synchronization, and performance engineering.
 
-Problem → Approach → Results
-- Problem: Build a small-form-factor array to capture and separate human voices in real-time.
-- Approach: Implement low-latency audio capture on Teensy (I2S), transmit via UART to a Raspberry Pi, perform online ICA/FFT-based processing with multiprocessing, and provide a multithreaded Python GUI for playback/visualization.
-- Results: Working demo with real-time playback, written report and poster, performance tradeoffs documented.
+**Problem:** Build a small-form-factor array to capture and separate human voices in real-time.
+
+**Approach:** Implement low-latency audio capture on Teensy (I2S), transmit via UART to a Raspberry Pi, perform online ICA/FFT-based processing with multiprocessing, and provide a multithreaded Python GUI for playback/visualization.
+
+**Results:** Working demo with real-time playback, written report and poster, performance tradeoffs documented.
 
 Relevant files
 - `Project Samples/Real-Time Audio Separation of Human Voices (Python, C)/src/valuecheck.ino` (Teensy firmware)

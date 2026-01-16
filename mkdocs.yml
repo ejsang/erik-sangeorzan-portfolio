@@ -29,7 +29,7 @@ nav:
   - Home: index.md
   - Role Fit: role-fit.md
   - Projects:
-      - _index: projects/index.md
+      - Index: projects/index.md
       - Real-Time Audio Separation: projects/real-time-audio-separation.md
       - Stratum Synthesizer: projects/stratum-synthesizer.md
       - Zumo Shield Robot: projects/zumo-shield-robot.md

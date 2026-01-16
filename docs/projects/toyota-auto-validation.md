@@ -2,10 +2,11 @@
 
 **Summary:** Demo materials and validation artifacts focused on test and validation workflows for embedded systems.
 
-Problem → Approach → Results
-- Problem: Demonstrate automated validation and reporting for an embedded automotive system.
-- Approach: Create demo recordings and validation scripts (C# demo artifacts included in the project folder) showing system-level test scenarios and reporting.
-- Results: Demo video and notes showcasing test methodology and results.
+**Problem:** Demonstrate automated validation and reporting for an embedded automotive system.
+
+**Approach:** Create demo recordings and validation scripts (C# demo artifacts included in the project folder) showing system-level test scenarios and reporting. The software automatically and programmatically updates the properties of the function generator machine to match the input values from the code based on what is required for each given data set and frequency response scenario (such as `DAB Stereo: Speed, -30dB, 80mph`).
+
+**Results:** Demo video and notes showcasing test methodology and results.
 
 Relevant files
 - `Project Samples/DEMO_ Toyota Auto-Validation Software, Harman (C#)/IMG_0092.mov`
