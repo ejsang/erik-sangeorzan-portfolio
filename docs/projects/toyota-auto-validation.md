@@ -1,6 +1,6 @@
 # Toyota Auto-Validation (Harman) Demo
 
-**Summary:** Demo materials and validation artifacts focused on test and validation workflows for embedded systems.
+**Summary:** Automated validation demo for embedded automotive systems, showcasing programmatic control of test equipment and data-driven testing scenarios using C# scripts.
 
 **Problem:** Demonstrate automated validation and reporting for an embedded automotive system.
 
@@ -26,3 +26,7 @@ Why this is relevant to Shure
 - **Demo Video:** [toyota-demo.mp4](../assets/toyota-demo/toyota-demo.mp4){:target="_blank"} (compressed, 83.2 MB, ~1.5 min)
   - Transcoded from original 1080p MOV (161 MB) using H.264 at 7.5 Mbps to balance quality and size.
 - **Original footage:** Available on request if you'd like the uncompressed version.
+
+### What to inspect
+- Watch the **Demo Video** to see the automated test setup and equipment control in action.
+- Review the C# scripts in the project folder for examples of programmatic test automation and data handling.
