@@ -22,6 +22,6 @@ Why this is relevant to Shure
 - Play the demo video: `Project Samples/DEMO_ Toyota Auto-Validation Software, Harman (C#)/IMG_0092.mov` to view the validation walkthrough.
 
 ## Downloads & Video
-- **Demo Video:** [toyota-demo.mp4](/assets/toyota-demo/toyota-demo.mp4) (compressed, 83.2 MB, ~1.5 min)
+- **Demo Video:** [toyota-demo.mp4](../assets/toyota-demo/toyota-demo.mp4) (compressed, 83.2 MB, ~1.5 min)
   - Transcoded from original 1080p MOV (161 MB) using H.264 at 7.5 Mbps to balance quality and size.
 - **Original footage:** Available on request if you'd like the uncompressed version.

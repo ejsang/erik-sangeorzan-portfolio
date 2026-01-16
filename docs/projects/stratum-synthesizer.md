@@ -28,9 +28,9 @@ Why this is relevant to Shure
   - Load `test_top.e` (or `test_GUI.e` for interactive tests) as the main program using the course toolchain/toolchain loader.
 
 ## Downloads
-- [Stratum Written Report (PDF)](/assets/stratum-synthesizer/Stratum Written Report.pdf)
-- [Presentation (PPTX)](/assets/stratum-synthesizer/Stratum Presentation (download to avoid format issues).pptx)
-- [Code (zip)](/assets/stratum-synthesizer/stratum-code.zip)
+- [Stratum Written Report (PDF)](../assets/stratum-synthesizer/Stratum Written Report.pdf)
+- [Presentation (PPTX)](../assets/stratum-synthesizer/Stratum Presentation (download to avoid format issues).pptx)
+- [Code (zip)](../assets/stratum-synthesizer/stratum-code.zip)
 
 ### What to inspect
 - Read the **Stratum Written Report** for architecture and driver design notes.
