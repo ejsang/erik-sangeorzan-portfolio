@@ -5,7 +5,6 @@ site_url: https://ejsang.github.io/erik-sangeorzan-portfolio/
 theme:
   name: material
   features:
-    - navigation.sections
     - navigation.expand
     - navigation.top
     - content.code.copy
