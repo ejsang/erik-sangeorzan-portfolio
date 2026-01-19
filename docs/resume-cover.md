@@ -11,7 +11,7 @@
 <p>
   <a href="https://docs.google.com/document/d/e/2PACX-1vTGmJ-EpKuzCzlfSdBu3UdtPYUWzl7cZYcysXKP5f19eKOArWp7Zr85L5tY68iI0Q/pub" target="_blank">Open in Google Docs</a>
   |
-  <a href="assets/Erik_Sangeorzan_Resume.pdf" target="_blank">Download PDF</a>
+  <a href="assets/Resume.pdf" target="_blank">Download PDF</a>
 </p>
 
 ## Cover Letter
@@ -23,5 +23,5 @@
 <p>
   <a href="https://docs.google.com/document/d/e/2PACX-1vROmQtxHHUJVPMbRs5sOg27SbWW1B8zIpWUNGUQ4Ctt3ftNT80zyXHI2a6DO2WYHl4dzVPycovfqyWP/pub" target="_blank">Open in Google Docs</a>
   |
-  <a href="assets/Erik_Sangeorzan_Cover_Letter.pdf" target="_blank">Download PDF</a>
+  <a href="assets/ShureCoverLetter.pdf" target="_blank">Download PDF</a>
 </p>
