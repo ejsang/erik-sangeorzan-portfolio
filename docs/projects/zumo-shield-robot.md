@@ -27,9 +27,10 @@
 - Open a serial console to the board (LPUART1 at 115200 baud) to view `printf` telemetry and debug messages.
 - Verify motor and sensor wiring matches pins in `main.c`; adjust PWM/drive parameters as needed and test in a controlled environment.
 
-### Downloads
+### Downloads & presentation video
 
 - [Line follower code (zip)](../assets/zumo-shield-robot/zumo-line-follower.zip){:target="_blank"}
+- **[Presentation video](https://youtu.be/iPAF4b1J8Rs){:target="_blank"}**
 
 ### What to inspect
 
