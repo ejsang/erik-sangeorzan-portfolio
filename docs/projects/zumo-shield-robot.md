@@ -8,23 +8,29 @@
 
 **Results:** Working line-following implementation with telemetry and documented firmware (`main.c`).
 
-Skills demonstrated
+---
+
+### Skills demonstrated
+
 - Embedded C programming on STM32 (PWM, timers, UART, GPIO)
 - Low-level hardware control and real-time loop design for control systems
 - Hardware debugging and interfacing with sensors and actuators
 
-Why this is relevant to Shure
+### Why this is relevant to Shure
+
 - Demonstrates embedded firmware development, hardware driver use and debugging - core skills for device firmware and low-level audio peripherals.
 
-## How to run / reproduce
+### How to run / reproduce
 
 - Open the `Line follower` project in STM32CubeIDE (the project was created with STM32 Cube tools).
 - Build and flash the firmware to the STM32 (Zumo) board.
-- Open a serial console to the board (LPUART1 at **115200** baud) to view `printf` telemetry and debug messages.
+- Open a serial console to the board (LPUART1 at 115200 baud) to view `printf` telemetry and debug messages.
 - Verify motor and sensor wiring matches pins in `main.c`; adjust PWM/drive parameters as needed and test in a controlled environment.
 
-## Downloads
+### Downloads
+
 - [Line follower code (zip)](../assets/zumo-shield-robot/zumo-line-follower.zip){:target="_blank"}
 
 ### What to inspect
+
 - Open `main.c` in the zip and inspect the sensor scan and correction logic; this is where hardware timing and PWM control are implemented.

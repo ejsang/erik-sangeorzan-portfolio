@@ -20,8 +20,9 @@
 
 - Demonstrates fundamental audio signal processing and algorithm development skills using MATLAB, a standard tool for DSP prototyping.
 
-### Project Website
-For a detailed breakdown of the methodology and results, visit the [Project Website](https://ejsang.wixsite.com/eecs351project){:target="_blank"}.
+### Project website
+
+For a detailed breakdown of the methodology and results, visit the **[project website](https://ejsang.wixsite.com/eecs351project){:target="_blank"}**.
 
 ### How to run / reproduce
 
@@ -31,8 +32,10 @@ For a detailed breakdown of the methodology and results, visit the [Project Webs
 - Note: The current algorithm has a known issue missing a net hit in rally 4, which affects scoring in subsequent rallies.
 
 ### Downloads
+
 - [Code (zip)](../assets/tennis-audio-analysis/tennis-audio-code.zip){:target="_blank"}
 
 ### What to inspect
+
 - Check `findBallHit.m` to see the transient detection logic.
 - See `main.m` for the integration of detection algorithms into the game loop.

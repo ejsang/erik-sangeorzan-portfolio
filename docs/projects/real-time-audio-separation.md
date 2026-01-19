@@ -8,20 +8,26 @@
 
 **Results:** Working demo with real-time playback, written report and poster, performance tradeoffs documented.
 
-Skills demonstrated
+---
+
+### Skills demonstrated
+
 - C/C++ on embedded platforms (I2S, UART), Python multiprocessing and multithreading
 - Real-time DSP (FFT, ICA), FIR filtering (low-pass)
 - Hardware synchronization using GPIO, performance tuning and profiling
 
-Why this is relevant to Shure
+### Why this is relevant to Shure
+
 - Directly maps to audio capture and real-time DSP experience required for professional audio products; shows experience with embedded audio pipelines, low-latency processing, and cross-platform integration.
 
-## How to run / reproduce
+### How to run / reproduce
 
-Hardware
+Hardware:
+
 - Teensy boards with Audio Shield (or equivalent), a Raspberry Pi (4 recommended), microphones (or test audio), and a UART connection between Teensy and Pi.
 
-Quick steps
+Quick steps:
+
 - Run the self-contained demo: open `src_computer_runnable_demo/` and follow its README.
 - On the Raspberry Pi (or laptop):
   - Create a Python virtualenv and install any dependencies (if present).
@@ -34,10 +40,12 @@ python3 src/ui3_1_maxplayback.py
 
 - On each Teensy: flash `src/valuecheck.ino` (use Arduino IDE / Teensy Loader) and set I2S/UART parameters as described in `OVERVIEW.txt`.
 
-Notes
+Notes:
+
 - Real-time performance depends on available CPU cores and tuning parameters; see `OVERVIEW.txt` and `USAGE.txt` for recommended settings and bottlenecks.
 
-## Downloads
+### Downloads
+
 - [Final report (PDF)](../assets/real-time-audio-separation/2021-Team-2-final.pdf){:target="_blank"}
 - [Slide deck (PDF)](../assets/real-time-audio-separation/2021-Team-2-slides.pdf){:target="_blank"}
 - [Poster (PDF)](../assets/real-time-audio-separation/2021-Team-2-poster.pdf){:target="_blank"}
@@ -45,6 +53,7 @@ Notes
 - [Runnable demo (zip)](../assets/real-time-audio-separation/real-time-demo.zip){:target="_blank"}
 
 ### What to inspect
+
 - See the **Final report** for design decisions, synchronization approach, and performance analysis.
 - Play the **Demo video** for the live system behavior and slide commentary.
 - Download the **Runnable demo** to run the self-contained demo locally (instructions in `USAGE.txt`).

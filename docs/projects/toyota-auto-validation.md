@@ -8,21 +8,25 @@
 
 **Results:** Demo video and notes showcasing test methodology and results.
 
-Skills demonstrated:
+---
+
+### Skills demonstrated
 
 - Test/validation mindset, automation and reporting
 - Communication of validation results to stakeholders
 
-Why this is relevant to Shure:
+### Why this is relevant to Shure
 
 - Highlights validation and verification experience which complements firmware development and release processes.
 
-## How to run / reproduce
+### How to run / reproduce
 
 - Play the demo video below to view the validation walkthrough.
 
-## Downloads & Video
-- **Demo Video:** [toyota-demo.mp4](../assets/toyota-demo/toyota-demo.mp4){:target="_blank"}
+### Downloads & video
+
+- **Demo video:** [toyota-demo.mp4](../assets/toyota-demo/toyota-demo.mp4){:target="_blank"}
 
 ### What to inspect
-- Watch the **Demo Video** to see the automated test setup and equipment control in action.
+
+- Watch the **demo video** to see the automated test setup and equipment control in action.
