@@ -17,7 +17,7 @@ Skills demonstrated
 - Hardware debugging and interfacing with sensors and actuators
 
 Why this is relevant to Shure
-- Demonstrates embedded firmware development, hardware driver use and debugging—core skills for device firmware and low-level audio peripherals.
+- Demonstrates embedded firmware development, hardware driver use and debugging - core skills for device firmware and low-level audio peripherals.
 
 ## How to run / reproduce
 
@@ -30,4 +30,4 @@ Why this is relevant to Shure
 - [Line follower code (zip)](../assets/zumo-shield-robot/zumo-line-follower.zip){:target="_blank"}
 
 ### What to inspect
-- Open `main.c` in the zip and inspect the sensor scan and correction logic — this is where hardware timing and PWM control are implemented.
+- Open `main.c` in the zip and inspect the sensor scan and correction logic; this is where hardware timing and PWM control are implemented.

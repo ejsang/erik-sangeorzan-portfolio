@@ -1,6 +1,6 @@
 # Stratum Synthesizer (Assembly)
 
-**Summary:** A hand-crafted audio synthesizer implemented largely in assembly with low-level drivers for speaker output, SD card access, SDRAM, and touchscreen I/O—focused on efficiency and driver-level control.
+**Summary:** A hand-crafted audio synthesizer implemented largely in assembly with low-level drivers for speaker output, SD card access, SDRAM, and touchscreen I/O - focused on efficiency and driver-level control.
 
 **Problem:** Produce a functional synthesizer on constrained embedded hardware with multiple instrument voices and low-latency control.
 

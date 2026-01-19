@@ -1,4 +1,4 @@
-# Deploying this portfolio (GitHub Pages — MkDocs)
+# Deploying this portfolio (GitHub Pages - MkDocs)
 
 This repo contains a GitHub Actions workflow that builds the MkDocs site and deploys to the `gh-pages` branch automatically on push to `main` or `master`.
 

@@ -41,7 +41,7 @@ python3 src/ui3_1_maxplayback.py
 - On each Teensy: flash `src/valuecheck.ino` (use Arduino IDE / Teensy Loader) and set I2S/UART parameters as described in `OVERVIEW.txt`.
 
 Notes
-- Real-time performance depends on available CPU cores and tuning parameters — see `OVERVIEW.txt` and `USAGE.txt` for recommended settings and bottlenecks.
+- Real-time performance depends on available CPU cores and tuning parameters; see `OVERVIEW.txt` and `USAGE.txt` for recommended settings and bottlenecks.
 
 ## Downloads
 - [Final report (PDF)](../assets/real-time-audio-separation/2021-Team-2-final.pdf){:target="_blank"}
