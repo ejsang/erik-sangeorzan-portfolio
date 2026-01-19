@@ -1,4 +1,4 @@
-# Erik Sangeorzan – Engineering Portfolio
+# Erik Sangeorzan: Engineering Portfolio
 
 [![Build & Deploy](https://github.com/ejsang/erik-sangeorzan-portfolio/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/ejsang/erik-sangeorzan-portfolio/actions)
 
