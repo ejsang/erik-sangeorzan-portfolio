@@ -2,6 +2,8 @@
 
 **Context:** This page maps the Shure job requirements to specific project evidence in this portfolio. Each section below corresponds to a key requirement, with links to relevant projects and explanations of how they demonstrate the skill.
 
+> **Professional Experience Note:** While this portfolio showcases academic and personal projects, my professional experience at Ford involved rigorous Ethernet/IP/TCP/UDP protocol conformance testing, packet analysis, and the implementation of deterministic CI test harnesses.
+
 ## Design, develop and test embedded software and associated components for audio products (C/C++)
 
 - **[Real-Time Audio Separation](projects/real-time-audio-separation.md)**: Teensy firmware, I2S/UART C/C++ code, Raspberry Pi processing and multithreaded Python demos demonstrating low-latency embedded audio capture and processing.
@@ -13,18 +15,22 @@
 - **[Stratum Synthesizer](projects/stratum-synthesizer.md)**: speaker and SD drivers, low-level peripheral control.
 - **[Zumo Shield Robot](projects/zumo-shield-robot.md)**: STM32 PWM, timers, UART and GPIO; illustrates driver usage and hardware control.
 
-## Real-time, multitasking, RTOS concepts and debugging (Embedded Linux/FreeRTOS/etc)
+## Real-time, multitasking, and OS concepts (Embedded Linux / threads / synchronization)
 
-- **[Real-Time Audio Separation](projects/real-time-audio-separation.md)**: real-time constraints, multicore/multithreaded processing and synchronization.
-- **[Zumo Shield Robot](projects/zumo-shield-robot.md)**: real-time control loop design and hardware timing considerations (timers, interrupts, PWM).
+- **[Real-Time Audio Separation](projects/real-time-audio-separation.md)**: Embedded Linux user-space on Raspberry Pi + concurrency + synchronization.
+- **[Zumo Shield Robot](projects/zumo-shield-robot.md)**: microcontroller timing/interrupts and real-time control loop design.
 
 ## Networking & protocols (UART, I2S, possibility to work with Ethernet/TCP/UDP/Wi-Fi)
 
-- **[Real-Time Audio Separation](projects/real-time-audio-separation.md)**: I2S audio capture and UART streaming; demonstrates protocol-level understanding and embedded networking concepts.
+- **Professional**: Ethernet/IP/TCP/UDP (protocol conformance + packet analysis) - see resume for Ford experience.
+- **Projects**: **[Real-Time Audio Separation](projects/real-time-audio-separation.md)**: I2S audio capture and UART streaming; demonstrates embedded audio streaming concepts.
 
 ## Software architecture, design, and testing (reviews, unit/integration tests)
 
-- All projects include design notes and reports; the portfolio includes a test-oriented project ([Toyota Auto-Validation](projects/toyota-auto-validation.md)) and unit tests in other repos (e.g., the archived Glasgow repo had tests). I prioritize clear documentation and testability.
+- **[Toyota Auto-Validation](projects/toyota-auto-validation.md)**: demonstrates test automation and reporting.
+- **Professional**: Experience with SonarQube rollout, deterministic builds, and harness-based validation.
+- **Process**: I prioritize clear documentation, peer reviews, and testability (see reports included with each project).
+- **Organization**: I estimate, organize, and document tasks as part of the standard engineering workflow.
 
 ## Hardware debugging and release processes
 

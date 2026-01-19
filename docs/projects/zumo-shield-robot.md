@@ -18,7 +18,14 @@
 
 ### Why this is relevant to Shure
 
-- Demonstrates embedded firmware development, hardware driver use and debugging - core skills for device firmware and low-level audio peripherals.
+- Demonstrates embedded firmware development, hardware driver use, and debugging.
+- **UART telemetry** for debugging and **timing/PWM tuning** directly maps to device firmware development.
+
+### Test Procedure
+
+1. **Unit Test:** Verify individual sensor readings via UART output while manually moving the robot over contrasting surfaces.
+2. **Integration Test:** Tune PID control loop parameters (Kp, Ki, Kd) using real-time telemetry to achieve stable line tracking at increasing speeds.
+3. **System Validation:** Run full course navigation tests to verify corner handling and intersection logic.
 
 ### How to run / reproduce
 

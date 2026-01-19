@@ -18,7 +18,9 @@
 
 ### Why this is relevant to Shure
 
-- Directly maps to audio capture and real-time DSP experience required for professional audio products; shows experience with embedded audio pipelines, low-latency processing, and cross-platform integration.
+- **Design/develop/test C/C++ embedded component**: Implemented I2S capture and UART streaming firmware.
+- **System Integration**: Integrated HW/SW system and debugged timing/synchronization issues between microcontroller and processor.
+- **Real-time multitasking**: Managed multiprocessing/multithreading with strict performance constraints.
 
 ### How to run / reproduce
 
@@ -30,7 +32,7 @@ Quick steps:
 
 - Run the self-contained demo: open `src_computer_runnable_demo/` and follow its README.
 - On the Raspberry Pi (or laptop):
-  - Create a Python virtualenv and install any dependencies (if present).
+  - Create a Python virtualenv and install dependencies: `pip install numpy scipy matplotlib pyaudio`
   - Run:
 
 ```bash
@@ -40,9 +42,11 @@ python3 src/ui3_1_maxplayback.py
 
 - On each Teensy: flash `src/valuecheck.ino` (use Arduino IDE / Teensy Loader) and set I2S/UART parameters as described in `OVERVIEW.txt`.
 
-Notes:
+### What I'd improve next
 
-- Real-time performance depends on available CPU cores and tuning parameters; see `OVERVIEW.txt` and `USAGE.txt` for recommended settings and bottlenecks.
+- **Latency Budget**: Quantify and optimize the end-to-end latency budget (currently limited by UART bandwidth).
+- **Buffering Strategy**: Implement circular buffering to reduce jitter and dropouts.
+- **Test Strategy**: Add automated regression tests for the DSP blocks.
 
 ### Downloads
 

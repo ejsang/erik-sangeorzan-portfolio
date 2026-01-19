@@ -18,18 +18,23 @@
 
 ### Why this is relevant to Shure
 
-- Demonstrates fundamental audio signal processing and algorithm development skills using MATLAB, a standard tool for DSP prototyping.
+- Demonstrates fundamental audio signal processing and algorithm development skills using MATLAB (DSP prototyping).
 
 ### Project website
 
 For a detailed breakdown of the methodology and results, visit the **[project website](https://ejsang.wixsite.com/eecs351project){:target="_blank"}**.
+
+### Limitations & Fix Plan
+
+- **Limitation:** The current algorithm misses a net hit in Rally 4, causing a scoring drift in subsequent events.
+- **Fix Plan:** Implement a stricter spectral template match for "net hits" to distinguish them from similar short-duration transients.
+- **Verification:** Add unit tests with synthetic "net hit" audio clips to verify detection thresholding.
 
 ### How to run / reproduce
 
 - Requirements: MATLAB.
 - Run `main.m` in MATLAB.
 - The script analyzes the audio, prints the game score to the console, and generates plots for detected events.
-- Note: The current algorithm has a known issue missing a net hit in rally 4, which affects scoring in subsequent rallies.
 
 ### Downloads
 

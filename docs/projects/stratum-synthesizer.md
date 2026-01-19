@@ -18,11 +18,33 @@
 
 ### Why this is relevant to Shure
 
-- Shows low-level embedded audio engineering and driver development experience important for firmware that directly handles audio devices and peripheral interfaces.
+- Shows low-level embedded audio engineering and driver development experience (Speaker PWM, SD Card SPI, Touchscreen I2C) important for firmware that directly handles audio devices and peripheral interfaces.
+
+### Driver Interface Sketch
+
+```c
+// Pseudocode illustrating the driver interface logic implemented in assembly
+// See 'speaker_driver.e' for the actual assembly implementation
+
+void Audio_ISR(void) {
+    // 1. Acknowledge Interrupt
+    Clear_IRQ(AUDIO_IRQ_MASK);
+    
+    // 2. Check FIFO status
+    if (!FIFO_Full(AUDIO_FIFO_ADDR)) {
+        // 3. Fetch next sample from synthesis engine
+        int16_t sample = Synth_GetNextSample();
+        
+        // 4. Write to hardware register
+        Write_Reg(AUDIO_DATA_REG, sample);
+    }
+}
+```
 
 ### How to run / reproduce
 
-- Hardware & toolchain: See `Stratum Written Report.pdf` for details on required hardware and the toolchain used in the course. The project was built and tested on the original target hardware described in the report.
+- **Target Hardware:** Nios II soft-core processor on DE1-SoC FPGA (Altera).
+- **Toolchain:** See `Stratum Written Report.pdf` for details. The project was built and tested on the original target hardware.
 - To run on target hardware:
   - Copy `combined.raw` to the root of an SD card used by the target board.
   - Load `test_top.e` (or `test_GUI.e` for interactive tests) as the main program using the course toolchain/toolchain loader.
