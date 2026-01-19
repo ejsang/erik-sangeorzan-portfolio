@@ -8,11 +8,6 @@
 
 **Results:** Full synthesizer with multiple instruments and a touchscreen interface; source demonstrates low-level driver work and audio path implementation.
 
-Relevant files
-- `Project Samples/Stratum Synthesizer (Assembly)/Code/speaker_driver.e`
-- `.../sd_read_driver.e`, `sdram_read_driver.e`, `touchscreen_driver.e`, `synth` modules
-- Written report and presentation in the root of the project folder.
-
 Skills demonstrated
 - Assembly-level optimization and hardware driver development
 - Real-time audio signal generation and low-latency control
@@ -35,4 +30,4 @@ Why this is relevant to Shure
 
 ### What to inspect
 - Read the **Stratum Written Report** for architecture and driver design notes.
-- Inspect `speaker_driver.e` and the `synth` modules inside the code zip to see low-level driver logic and instrument synthesis routines.
+- Inspect `speaker_driver.e`, `sd_read_driver.e`, and the `synth` modules inside the code zip to see low-level driver logic and instrument synthesis routines.

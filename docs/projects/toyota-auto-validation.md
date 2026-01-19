@@ -8,9 +8,6 @@
 
 **Results:** Demo video and notes showcasing test methodology and results.
 
-Relevant files
-- `Project Samples/DEMO_ Toyota Auto-Validation Software, Harman (C#)/IMG_0092.mov`
-
 Skills demonstrated
 - Test/validation mindset, automation and reporting
 - Communication of validation results to stakeholders

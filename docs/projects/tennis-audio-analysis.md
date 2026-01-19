@@ -8,10 +8,6 @@
 
 **Results:** Successfully detected ball hits and applause in test clips; identified limitations in net hit detection for specific rallies.
 
-Relevant files
-- `main.m`: Driver script.
-- `findBallHit.m`, `outidentification.m`, `findapplause.m`: Signal processing algorithms.
-
 Skills demonstrated
 - Audio Signal Processing (MATLAB)
 - Algorithm Development (transient detection, spectral analysis)

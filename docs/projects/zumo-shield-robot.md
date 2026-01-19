@@ -8,9 +8,6 @@
 
 **Results:** Working line-following implementation with telemetry and documented firmware (`main.c`).
 
-Relevant files
-- `Project Samples/Zumo Shield Robot Navigation (C)/Line follower/main.c`
-
 Skills demonstrated
 - Embedded C programming on STM32 (PWM, timers, UART, GPIO)
 - Low-level hardware control and real-time loop design for control systems

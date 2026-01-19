@@ -8,12 +8,6 @@
 
 **Results:** Working demo with real-time playback, written report and poster, performance tradeoffs documented.
 
-Relevant files
-- `Project Samples/Real-Time Audio Separation of Human Voices (Python, C)/src/valuecheck.ino` (Teensy firmware)
-- `.../src/analyze_fft1024o.cpp`, `setI2Sfreq.cpp` (embedded audio handling)
-- `.../src/multiproc_cogent.py`, `ui3_1_maxplayback.py` (Raspberry Pi processing & GUI)
-- Report and slides: `2021-Team-2-final.pdf`, `2021-Team-2-slides.pdf`.
-
 Skills demonstrated
 - C/C++ on embedded platforms (I2S, UART), Python multiprocessing and multithreading
 - Real-time DSP (FFT, ICA), FIR filtering (low-pass)
@@ -54,3 +48,4 @@ Notes
 - See the **Final report** for design decisions, synchronization approach, and performance analysis.
 - Play the **Demo video** for the live system behavior and slide commentary.
 - Download the **Runnable demo** to run the self-contained demo locally (instructions in `USAGE.txt`).
+- Inspect `src/valuecheck.ino` for Teensy I2S/UART firmware and `src/multiproc_cogent.py` for the Python multiprocessing implementation.
