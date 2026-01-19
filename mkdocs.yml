@@ -27,11 +27,11 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Role Fit: role-fit.md
-  - Resume & Cover Letter: projects/resume-cover.md
+  - Resume & Cover Letter: resume-cover.md
   - Projects:
       - Index: projects/index.md
       - Real-Time Audio Separation: projects/real-time-audio-separation.md
       - Stratum Synthesizer: projects/stratum-synthesizer.md
       - Zumo Shield Robot: projects/zumo-shield-robot.md
-      - Toyota Auto-Validation (Harman): projects/toyota-auto-validation.md
-      - Analyzing Tennis Matches (MATLAB): projects/tennis-audio-analysis.md
+      - "Toyota Auto-Validation (Harman)": projects/toyota-auto-validation.md
+      - "Analyzing Tennis Matches (MATLAB)": projects/tennis-audio-analysis.md

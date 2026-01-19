@@ -8,6 +8,6 @@ Welcome to my engineering portfolio showcasing selected projects in embedded sof
 
 - **[Projects](projects/index.md)**: Browse all featured projects
 - **[Role Fit](role-fit.md)**: Mapping to Shure Senior Embedded Software Engineer requirements
-- **[Resume & Cover Letter](projects/resume-cover.md)**: Tailored application materials
+- **[Resume & Cover Letter](resume-cover.md)**: Tailored application materials
 
 ---
