@@ -453,6 +453,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#what-id-improve-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What I'd improve next
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#downloads" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -553,7 +564,7 @@
   <span class="md-ellipsis">
     
   
-    Toyota Auto-Validation (Harman)
+    Toyota Auto-Validation (HARMAN)
   
 
     
@@ -662,6 +673,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#what-id-improve-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What I'd improve next
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#downloads" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -714,7 +736,9 @@
 </ul>
 <h3 id="why-this-is-relevant-to-shure">Why this is relevant to Shure<a class="headerlink" href="#why-this-is-relevant-to-shure" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Directly maps to audio capture and real-time DSP experience required for professional audio products; shows experience with embedded audio pipelines, low-latency processing, and cross-platform integration.</li>
+<li><strong>Design/develop/test C/C++ embedded component</strong>: Implemented I2S capture and UART streaming firmware.</li>
+<li><strong>System Integration</strong>: Integrated HW/SW system and debugged timing/synchronization issues between microcontroller and processor.</li>
+<li><strong>Real-time multitasking</strong>: Managed multiprocessing/multithreading with strict performance constraints.</li>
 </ul>
 <h3 id="how-to-run-reproduce">How to run / reproduce<a class="headerlink" href="#how-to-run-reproduce" title="Permanent link">&para;</a></h3>
 <p>Hardware:</p>
@@ -725,7 +749,7 @@
 <ul>
 <li>Run the self-contained demo: open <code>src_computer_runnable_demo/</code> and follow its README.</li>
 <li>On the Raspberry Pi (or laptop):</li>
-<li>Create a Python virtualenv and install any dependencies (if present).</li>
+<li>Create a Python virtualenv and install dependencies: <code>pip install numpy scipy matplotlib pyaudio</code></li>
 <li>Run:</li>
 </ul>
 <div class="codehilite"><pre><span></span><code>python3<span class="w"> </span>src/multiproc_cogent.py
@@ -735,9 +759,11 @@ python3<span class="w"> </span>src/ui3_1_maxplayback.py
 <ul>
 <li>On each Teensy: flash <code>src/valuecheck.ino</code> (use Arduino IDE / Teensy Loader) and set I2S/UART parameters as described in <code>OVERVIEW.txt</code>.</li>
 </ul>
-<p>Notes:</p>
+<h3 id="what-id-improve-next">What I'd improve next<a class="headerlink" href="#what-id-improve-next" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Real-time performance depends on available CPU cores and tuning parameters; see <code>OVERVIEW.txt</code> and <code>USAGE.txt</code> for recommended settings and bottlenecks.</li>
+<li><strong>Latency Budget</strong>: Quantify and optimize the end-to-end latency budget (currently limited by UART bandwidth).</li>
+<li><strong>Buffering Strategy</strong>: Implement circular buffering to reduce jitter and dropouts.</li>
+<li><strong>Test Strategy</strong>: Add automated regression tests for the DSP blocks.</li>
 </ul>
 <h3 id="downloads">Downloads<a class="headerlink" href="#downloads" title="Permanent link">&para;</a></h3>
 <ul>

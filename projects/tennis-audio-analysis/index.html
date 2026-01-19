@@ -449,7 +449,7 @@
   <span class="md-ellipsis">
     
   
-    Toyota Auto-Validation (Harman)
+    Toyota Auto-Validation (HARMAN)
   
 
     
@@ -556,6 +556,17 @@
     <span class="md-ellipsis">
       
         Project website
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#limitations-fix-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitations &amp; Fix Plan
       
     </span>
   </a>
@@ -671,6 +682,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#limitations-fix-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Limitations &amp; Fix Plan
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-to-run-reproduce" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -734,16 +756,21 @@
 </ul>
 <h3 id="why-this-is-relevant-to-shure">Why this is relevant to Shure<a class="headerlink" href="#why-this-is-relevant-to-shure" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Demonstrates fundamental audio signal processing and algorithm development skills using MATLAB, a standard tool for DSP prototyping.</li>
+<li>Demonstrates fundamental audio signal processing and algorithm development skills using MATLAB (DSP prototyping).</li>
 </ul>
 <h3 id="project-website">Project website<a class="headerlink" href="#project-website" title="Permanent link">&para;</a></h3>
 <p>For a detailed breakdown of the methodology and results, visit the <strong><a href="https://ejsang.wixsite.com/eecs351project" target="_blank">project website</a></strong>.</p>
+<h3 id="limitations-fix-plan">Limitations &amp; Fix Plan<a class="headerlink" href="#limitations-fix-plan" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Limitation:</strong> The current algorithm misses a net hit in Rally 4, causing a scoring drift in subsequent events.</li>
+<li><strong>Fix Plan:</strong> Implement a stricter spectral template match for "net hits" to distinguish them from similar short-duration transients.</li>
+<li><strong>Verification:</strong> Add unit tests with synthetic "net hit" audio clips to verify detection thresholding.</li>
+</ul>
 <h3 id="how-to-run-reproduce">How to run / reproduce<a class="headerlink" href="#how-to-run-reproduce" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Requirements: MATLAB.</li>
 <li>Run <code>main.m</code> in MATLAB.</li>
 <li>The script analyzes the audio, prints the game score to the console, and generates plots for detected events.</li>
-<li>Note: The current algorithm has a known issue missing a net hit in rally 4, which affects scoring in subsequent rallies.</li>
 </ul>
 <h3 id="downloads">Downloads<a class="headerlink" href="#downloads" title="Permanent link">&para;</a></h3>
 <ul>

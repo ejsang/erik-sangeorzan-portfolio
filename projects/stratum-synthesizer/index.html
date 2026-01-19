@@ -470,6 +470,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#driver-interface-sketch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Driver Interface Sketch
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-to-run-reproduce" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -553,7 +564,7 @@
   <span class="md-ellipsis">
     
   
-    Toyota Auto-Validation (Harman)
+    Toyota Auto-Validation (HARMAN)
   
 
     
@@ -651,6 +662,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#driver-interface-sketch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Driver Interface Sketch
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-to-run-reproduce" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -714,11 +736,31 @@
 </ul>
 <h3 id="why-this-is-relevant-to-shure">Why this is relevant to Shure<a class="headerlink" href="#why-this-is-relevant-to-shure" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Shows low-level embedded audio engineering and driver development experience important for firmware that directly handles audio devices and peripheral interfaces.</li>
+<li>Shows low-level embedded audio engineering and driver development experience (Speaker PWM, SD Card SPI, Touchscreen I2C) important for firmware that directly handles audio devices and peripheral interfaces.</li>
 </ul>
+<h3 id="driver-interface-sketch">Driver Interface Sketch<a class="headerlink" href="#driver-interface-sketch" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code><span class="c1">// Pseudocode illustrating the driver interface logic implemented in assembly</span>
+<span class="c1">// See &#39;speaker_driver.e&#39; for the actual assembly implementation</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">Audio_ISR</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// 1. Acknowledge Interrupt</span>
+<span class="w">    </span><span class="n">Clear_IRQ</span><span class="p">(</span><span class="n">AUDIO_IRQ_MASK</span><span class="p">);</span>
+
+<span class="w">    </span><span class="c1">// 2. Check FIFO status</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">FIFO_Full</span><span class="p">(</span><span class="n">AUDIO_FIFO_ADDR</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// 3. Fetch next sample from synthesis engine</span>
+<span class="w">        </span><span class="kt">int16_t</span><span class="w"> </span><span class="n">sample</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Synth_GetNextSample</span><span class="p">();</span>
+
+<span class="w">        </span><span class="c1">// 4. Write to hardware register</span>
+<span class="w">        </span><span class="n">Write_Reg</span><span class="p">(</span><span class="n">AUDIO_DATA_REG</span><span class="p">,</span><span class="w"> </span><span class="n">sample</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
 <h3 id="how-to-run-reproduce">How to run / reproduce<a class="headerlink" href="#how-to-run-reproduce" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Hardware &amp; toolchain: See <code>Stratum Written Report.pdf</code> for details on required hardware and the toolchain used in the course. The project was built and tested on the original target hardware described in the report.</li>
+<li><strong>Target Hardware:</strong> Nios II soft-core processor on DE1-SoC FPGA (Altera).</li>
+<li><strong>Toolchain:</strong> See <code>Stratum Written Report.pdf</code> for details. The project was built and tested on the original target hardware.</li>
 <li>To run on target hardware:</li>
 <li>Copy <code>combined.raw</code> to the root of an SD card used by the target board.</li>
 <li>Load <code>test_top.e</code> (or <code>test_GUI.e</code> for interactive tests) as the main program using the course toolchain/toolchain loader.</li>

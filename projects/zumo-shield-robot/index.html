@@ -498,6 +498,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#test-procedure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Test Procedure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-to-run-reproduce" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -553,7 +564,7 @@
   <span class="md-ellipsis">
     
   
-    Toyota Auto-Validation (Harman)
+    Toyota Auto-Validation (HARMAN)
   
 
     
@@ -651,6 +662,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#test-procedure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Test Procedure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-to-run-reproduce" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -714,8 +736,15 @@
 </ul>
 <h3 id="why-this-is-relevant-to-shure">Why this is relevant to Shure<a class="headerlink" href="#why-this-is-relevant-to-shure" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Demonstrates embedded firmware development, hardware driver use and debugging - core skills for device firmware and low-level audio peripherals.</li>
+<li>Demonstrates embedded firmware development, hardware driver use, and debugging.</li>
+<li><strong>UART telemetry</strong> for debugging and <strong>timing/PWM tuning</strong> directly maps to device firmware development.</li>
 </ul>
+<h3 id="test-procedure">Test Procedure<a class="headerlink" href="#test-procedure" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Unit Test:</strong> Verify individual sensor readings via UART output while manually moving the robot over contrasting surfaces.</li>
+<li><strong>Integration Test:</strong> Tune PID control loop parameters (Kp, Ki, Kd) using real-time telemetry to achieve stable line tracking at increasing speeds.</li>
+<li><strong>System Validation:</strong> Run full course navigation tests to verify corner handling and intersection logic.</li>
+</ol>
 <h3 id="how-to-run-reproduce">How to run / reproduce<a class="headerlink" href="#how-to-run-reproduce" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Open the <code>Line follower</code> project in STM32CubeIDE (the project was created with STM32 Cube tools).</li>
