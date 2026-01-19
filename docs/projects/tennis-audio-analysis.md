@@ -8,25 +8,29 @@
 
 **Results:** Successfully detected ball hits and applause in test clips; identified limitations in net hit detection for specific rallies.
 
-Skills demonstrated
+---
+
+### Skills demonstrated
+
 - Audio Signal Processing (MATLAB)
 - Algorithm Development (transient detection, spectral analysis)
 - State Machine Logic for scoring
 
-Why this is relevant to Shure
+### Why this is relevant to Shure
+
 - Demonstrates fundamental audio signal processing and algorithm development skills using MATLAB, a standard tool for DSP prototyping.
 
-## Project Website
+### Project Website
 For a detailed breakdown of the methodology and results, visit the [Project Website](https://ejsang.wixsite.com/eecs351project){:target="_blank"}.
 
-## How to run / reproduce
+### How to run / reproduce
 
 - Requirements: MATLAB.
 - Run `main.m` in MATLAB.
 - The script analyzes the audio, prints the game score to the console, and generates plots for detected events.
 - Note: The current algorithm has a known issue missing a net hit in rally 4, which affects scoring in subsequent rallies.
 
-## Downloads
+### Downloads
 - [Code (zip)](../assets/tennis-audio-analysis/tennis-audio-code.zip){:target="_blank"}
 
 ### What to inspect
