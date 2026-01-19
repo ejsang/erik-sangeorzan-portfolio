@@ -673,10 +673,6 @@
 <p><strong>Problem:</strong> Produce a functional synthesizer on constrained embedded hardware with multiple instrument voices and low-latency control.</p>
 <p><strong>Approach:</strong> Implement synthesis routines and driver code in assembly for tight control over timing and memory; build drivers for SD I/O and speaker output.</p>
 <p><strong>Results:</strong> Full synthesizer with multiple instruments and a touchscreen interface; source demonstrates low-level driver work and audio path implementation.</p>
-<p>Relevant files
-- <code>Project Samples/Stratum Synthesizer (Assembly)/Code/speaker_driver.e</code>
-- <code>.../sd_read_driver.e</code>, <code>sdram_read_driver.e</code>, <code>touchscreen_driver.e</code>, <code>synth</code> modules
-- Written report and presentation in the root of the project folder.</p>
 <p>Skills demonstrated
 - Assembly-level optimization and hardware driver development
 - Real-time audio signal generation and low-latency control
@@ -699,7 +695,7 @@
 <h3 id="what-to-inspect">What to inspect<a class="headerlink" href="#what-to-inspect" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Read the <strong>Stratum Written Report</strong> for architecture and driver design notes.</li>
-<li>Inspect <code>speaker_driver.e</code> and the <code>synth</code> modules inside the code zip to see low-level driver logic and instrument synthesis routines.</li>
+<li>Inspect <code>speaker_driver.e</code>, <code>sd_read_driver.e</code>, and the <code>synth</code> modules inside the code zip to see low-level driver logic and instrument synthesis routines.</li>
 </ul>
 
 

@@ -673,11 +673,6 @@
 <p><strong>Problem:</strong> Build a small-form-factor array to capture and separate human voices in real-time.</p>
 <p><strong>Approach:</strong> Implement low-latency audio capture on Teensy (I2S), transmit via UART to a Raspberry Pi, perform online ICA/FFT-based processing with multiprocessing, and provide a multithreaded Python GUI for playback/visualization.</p>
 <p><strong>Results:</strong> Working demo with real-time playback, written report and poster, performance tradeoffs documented.</p>
-<p>Relevant files
-- <code>Project Samples/Real-Time Audio Separation of Human Voices (Python, C)/src/valuecheck.ino</code> (Teensy firmware)
-- <code>.../src/analyze_fft1024o.cpp</code>, <code>setI2Sfreq.cpp</code> (embedded audio handling)
-- <code>.../src/multiproc_cogent.py</code>, <code>ui3_1_maxplayback.py</code> (Raspberry Pi processing &amp; GUI)
-- Report and slides: <code>2021-Team-2-final.pdf</code>, <code>2021-Team-2-slides.pdf</code>.</p>
 <p>Skills demonstrated
 - C/C++ on embedded platforms (I2S, UART), Python multiprocessing and multithreading
 - Real-time DSP (FFT, ICA), FIR filtering (low-pass)
@@ -714,6 +709,7 @@ python3<span class="w"> </span>src/ui3_1_maxplayback.py
 <li>See the <strong>Final report</strong> for design decisions, synchronization approach, and performance analysis.</li>
 <li>Play the <strong>Demo video</strong> for the live system behavior and slide commentary.</li>
 <li>Download the <strong>Runnable demo</strong> to run the self-contained demo locally (instructions in <code>USAGE.txt</code>).</li>
+<li>Inspect <code>src/valuecheck.ino</code> for Teensy I2S/UART firmware and <code>src/multiproc_cogent.py</code> for the Python multiprocessing implementation.</li>
 </ul>
 
 
