@@ -5,6 +5,7 @@
 ## Design, develop and test embedded software and associated components for audio products (C/C++)
 
 - **[Real-Time Audio Separation](projects/real-time-audio-separation.md)**: Teensy firmware, I2S/UART C/C++ code, Raspberry Pi processing and multithreaded Python demos demonstrating low-latency embedded audio capture and processing.
+- **[Analyzing Tennis Matches Based on Audio](projects/tennis-audio-analysis.md)**: MATLAB-based audio signal processing and algorithm development (transient detection, spectral analysis) relevant to audio product R&D.
 - **[Stratum Synthesizer](projects/stratum-synthesizer.md)**: assembly-level audio engine and drivers showing deep knowledge of audio signal path and constraints.
 
 ## Hardware drivers, embedded software applications, audio and control networking (C/C++)
