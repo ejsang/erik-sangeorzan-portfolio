@@ -8,11 +8,11 @@
 
 **Audio:** HARMAN acoustics + embedded audio pipeline project
 
-[Resume (PDF)](assets/Resume.pdf){: .md-button .md-button--primary}
+[Resume (PDF)](assets/Resume.pdf){:target="_blank" .md-button .md-button--primary}
 
-[Cover Letter (PDF)](assets/ShureCoverLetter.pdf){: .md-button}
+[Cover Letter (PDF)](assets/ShureCoverLetter.pdf){:target="_blank" .md-button}
 
-[Top Project: Real-Time Audio Separation](projects/real-time-audio-separation.md){: .md-button}
+[Top Project: Real-Time Audio Separation](projects/real-time-audio-separation.md){:target="_blank" .md-button}
 
 Welcome to my engineering portfolio showcasing selected projects in embedded software, audio processing, and robotics. Each project page includes a structured **Problem, Approach, and Results** summary, technical details, and downloadable artifacts.
 
